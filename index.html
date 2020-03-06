@@ -1,57 +1,209 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <title>Ultravision</title>
-  <meta name="description" content="It’s a COMPUTER, it’s a COLOR TV, it’s an ARCADE.">
-  <meta charset="utf-8">
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content=", width=device-width, initial-scale=1">
-  <link rel="shortcut icon" href="./img/favicon.png">
-  <link rel="apple-touch-icon" href="./img/favicon.png">
-  <link rel="stylesheet" href="./css/reset.css">
-  <link rel="stylesheet" href="./css/main.css">
+  <title>Exercice Ultravision - Alexia</title>
+
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet" href="./css/main.css">
 </head>
+
 <body>
-  <h1 class="title">Main title</h1>
-  <h2 class="section-title">Section title</h1>
-  <h3 class="sub-title">Subtitle</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <a class="button" href="#">A link!</a> Rem iure numquam quaerat suscipit nobis officiis accusantium iste voluptatibus natus repudiandae ducimus autem soluta nulla officia, quidem corrupti ad unde! Ipsa!</p>
+  <!-- Ici je place le header, les classes containers et row servent à créer des lignes pour le titre et le sous-titre -->
+<header>
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <h1>Ultravision</h1>
+    </div>
+    <div class="row justify-content-center">
+      <h2>Computer Video System</h2>
+    </div>
+  </div>
+</header>
 
-  <ul>
-    <li>Lorem</li>
-    <li>Lorem, ipsum dolor.</li>
-    <li>Lorem ipsum dolor sit.</li>
-    <li>Lorem, ipsum.</li>
-    <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, vitae?</li>
-  </ul>
-  
-  <a class="button" href="#">A button!</a>
+<main>
+  <!--premier container-->
+<div class="container-fluid ">
+  <div class="container">
+    <div class="row justify-content-center">
+      <h3>It’s a COMPUTER, it’s a COLOR TV, it’s an ARCADE.</h3>
+    </div>
+    <!--Je crée le modèle qui reviens le plus souvent dans la page avec une colonne à droite et une à gauche, je le fais en créant deux div class col md-6, le ms-12 signifie que sur les petits écrans, la colonne fera toute la largeur de l'écran -->
+    <div class="row">
+      <div class="col-ms-12 col-md-6 ">
+        <H4>We put it all together just for you!</h4>
+        <p>When you're ready for serious business, power-on to the Master Keyboard. Our sta te- of- the- a rt Mic rop roc essor a nd the RAM p a c ked (64K) interna l components (expandable to 128K) turn this system into one of the most powerful computers on the market. When the business gets tiresome and you want some real excitement, choose one of our 12 action-packed games ... they'll blow you away. And don't feel sorry if you have a large library of Atari VCS, or ColecoVision games, because you can enjoy them through our expansion modules. This revolutionary system doesn't just claim to duplicate the arcade experience... it surpasses it! And it's portable too, A/C or D/C. Plus 3 dimensional graphics, zoom and other special visual effects. The unique built-in sound system simulates echo and reverberation for authentic reproduction of explosions, crowds, music, etc. And you can hear it all without disturbing others. As a Color TV, it's better than most, with 2 independent systems to guarantee the sharpest resolution for the Computer/Game Systems and TV.</p>
+        <a href="#" class="YellowButton"> Learn More </a>
+      </div>
 
-  <div class="form-row">
-    <label for="name">First Name</label>
-    <input type="text" name="name" id="name">
-  </div>
-  
-  <div class="form-row">
-    <label for="email">Email adress</label>
-    <input type="email" name="email" id="email">
-  </div>
-  
-  <div class="form-row">
-    <label for="subject">Subject</label>
-    <select name="subject" id="subject">
-      <option value="Billing">Billing question</option>
-      <option value="Delivery">Delivery enquiries</option>
-      <option value="Other">…</option>
-    </select>
-  </div>
-    
-  <div class="form-row">
-    <label for="message">Message</label>
-    <input type="textarea" name="message" id="message">
-  </div>
+      <div class="col-md-6 col-ms-12">
+        <img src="img/background1.svg">
+      </div>
 
+    </div>
+</div>
+</div>
+<br><br>
+  <!--second container-->
+  <div class="container-fluid ">
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 col-sm-12">
+      <img src="img/background2.svg">
+    </div>
+    <div class="col-md-6 col-sm-12 ">
+      <H4>Entertainment Surpassing the "Real Arcade Game" Experience</h4>
+      <p>The only video game system that is completely self-contained:</p>
+        <li>	Built-in 9" diagonal high resolution color monitor</li>
+        <li>	Advanced  display technology with detailed  graphics and	special effects found only in coin-op arcade games.</li>
+        <li>Greater brilliance & higher resolution than conventional television systems.</li>
+        <p>Com pleteluy	portable: Operates	on	AC/DC	current	with	self- contained rechargeable battery power pack & optional cigarette lighter adaptor cord.</p>
+      <a href="#" class="OrangeButton"> Learn More </a>
+    </div>
+  </div>
+  </Div>
+</div>
+
+  <!--Serie de container similaire-->
+<div class="container-fluid linearOne">
+  <div class="container">
+    <div class="row justify-content-center">
+      <h3>ADVANCE FEATURES:</h3>
+    </div>
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h4>An arcade</h4>
+        <p>Two 16-position arcade style joysticks and dual stereo headphone jacks,</p>
+        <a href="#" class="WhiteButton"> Learn More</a>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="img/bitmap_2.png">
+    </div>
+  </div>
+  </div>
+</div>
+<div class="container-fluid linearTwo">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h4>A color tv</h4>
+        <p>A full-fledged 9" color television, complete with 84 channel support</p>
+        <a href="#" class="WhiteButton"> Learn More</a>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="img/bitmap_12.png">
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="container-fluid linearThree">
+  <div class="container">
+
+    <div class="row">
+      <div class="col-md-6 col-sm-12">
+        <h4>A computer</h4>
+        <p>Monitor can be directly connected to computer peripherals.</p>
+        <a href="#" class="WhiteButton"> Learn More</a>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <img src="img/bitmap_13.png">
+    </div>
+  </div>
+  </div>
+</div>
+</main>
+
+
+<section class="container-fluid GallerySection">
+<div class="container">
+  <div class="row justify-content-center">
+    <h3>Latest releases</h3>
+  </div>
+<div class="row justify-content-center">
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_4.png" />
+      <div class="overlay">
+    <div class="text">Lorem Ipsum dolor sit amet etc </div>
+  </div>
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_5.png" />
+
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_6.png" />
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_7.png" />
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-3 col-sm-12">
+        <img src="img/bitmap_8.png" />
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_9.png" />
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_10.png" />
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_11.png" />
+  </div>
+</div>
+
+<div class="row justify-content-center">
+  <div class="col-md-3 col-sm-12">
+        <img src="img/group-2.png" />
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/group-3.png" />
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_14.png" />
+  </div>
+  <div class="col-md-3 col-sm-12">
+      <img src="img/bitmap_15.png" />
+  </div>
+</div>
+</div>
+  <div class="container">
+    <div class="row justify-content-center ">
+      <h3>Contact</h3>
+    </div>
+    <div class="row formRow">
+  <form class="" action="index.html" method="post">
+
+      <div class="col-md-6 col-sm-12">
+        <label for="text">Name</label>
+        <input type="text" name="Name" value="Name"><br><br>
+        <label for="options">Subject</label>
+        <select id="options" name="options">
+          <option value="volvo">Billing questions</option>
+          <option value="saab">Option 2</option>
+          <option value="fiat">Option 3</option>
+          <option value="audi">Option 4</option>
+        </select><br><br>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <label for="textarea">Message</label><br>
+        <textarea name="name" rows="8" cols="80"></textarea>
+      </div>
+
+  </form>
+      </div>
+  </div>
+</section>
 
 </body>
 </html>
